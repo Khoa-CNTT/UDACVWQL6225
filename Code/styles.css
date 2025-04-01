@@ -1,0 +1,355 @@
+/* Reset mặc định */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: -5px;
+    min-width: 250px;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #198754;
+}
+
+/* Navbar */
+.main-nav {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand .logo {
+    width: 100px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #333 !important;
+}
+
+.nav-link:hover {
+    color: #ff6600 !important;
+}
+
+.btn-appointment {
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-appointment:hover {
+    background-color: #ff6600;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background: linear-gradient(to bottom, #0066a2, #009688);
+    border: none;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    image-rendering: crisp-edges; 
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+/*Dich vu */
+.service-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card .card-text {
+    flex-grow: 1;
+}
+
+
+.tagline {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-about, .btn-branch {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-about {
+    background-color: #ff6600;
+    color: white;
+}
+
+.btn-about:hover {
+    background-color: #cc5500;
+}
+
+.btn-branch {
+    background-color: white;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+}
+
+.btn-branch:hover {
+    background-color: #ff6600;
+    color: white;
+}
+.btn-branch:in-range{
+    background-color: #008000;
+    color: yellow;
+}
+.footer {
+    background-color: #2b211d;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    color: #ff914d;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #ff914d;
+    text-decoration: none;
+}
+
+/* About*/
+.about-banner p {
+    font-size: 16px;
+}
+
+.about-banner a {
+    color: rgb(20, 92, 225);
+    text-decoration: none;
+}
+
+.about-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.about-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.highlight {
+    color: #008000;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+/*tai sao nên chon */
+.why-choose-us {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.why-choose-us img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us .badge {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+/*anh*/
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery button {
+    margin: 5px;
+}
+/*Doi ngu nhan vien*/
+.team .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.team .card:hover {
+    transform: translateY(-5px);
+}
+
+.team .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.social-icons .btn {
+    margin: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.social-icons .btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+/*Khach hang noi gi*/ 
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.testimonial-box {
+    border-radius: 10px;
+    background: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-box:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #555;
+}
+
+.rating {
+    color: orange;
+    font-size: 18px;
+}
+/*He thông chi nhanh*/
+.branches .row {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.branch-box {
+    text-align: center; 
+    max-width: 300px; 
+    margin: 10px; 
+}
