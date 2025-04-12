@@ -1,0 +1,161 @@
+
+/* === Kiểu dáng cho Project === */
+.project-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.project-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-table th,
+.project-table td {
+    vertical-align: middle;
+}
+
+.project-table .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho project */
+@media (max-width: 768px) {
+    .project-section h1 {
+        font-size: 2rem;
+    }
+
+    .project-table {
+        font-size: 0.9rem;
+    }
+}
+
+/* === Kiểu dáng cho Users === */
+.users-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.users-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.users-table th,
+.users-table td {
+    vertical-align: middle;
+}
+
+.users-table .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho users */
+@media (max-width: 768px) {
+    .users-section h1 {
+        font-size: 2rem;
+    }
+
+    .users-table {
+        font-size: 0.9rem;
+    }
+}
+/* === Kiểu dáng cho Reports === */
+.reports-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.report-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.report-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.report-table th,
+.report-table td {
+    vertical-align: middle;
+}
+
+/* Responsive cho reports */
+@media (max-width: 768px) {
+    .reports-section h1 {
+        font-size: 2rem;
+    }
+
+    .report-table {
+        font-size: 0.9rem;
+    }
+}
+
+/* === Kiểu dáng cho Invoices === */
+.invoices-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.invoice-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-table th,
+.invoice-table td {
+    vertical-align: middle;
+}
+
+.invoice-table .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho invoices */
+@media (max-width: 768px) {
+    .invoices-section h1 {
+        font-size: 2rem;
+    }
+
+    .invoice-table {
+        font-size: 0.9rem;
+    }
+}
+
+/* === Kiểu dáng cho Appointments === */
+.appointments-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.appointment-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-table th,
+.appointment-table td {
+    vertical-align: middle;
+}
+
+.appointment-table .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho appointments */
+@media (max-width: 768px) {
+    .appointments-section h1 {
+        font-size: 2rem;
+    }
+
+    .appointment-table {
+        font-size: 0.9rem;
+    }
+}

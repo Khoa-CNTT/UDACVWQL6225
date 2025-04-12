@@ -1,0 +1,484 @@
+/* === Kiểu dáng cho Profile === */
+.profile-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+}
+
+.profile-avatar img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #16a085;
+    transition: transform 0.3s ease;
+}
+
+.profile-avatar img:hover {
+    transform: scale(1.05);
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info .info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.profile-info .info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #1a3c34;
+}
+
+.info-label i {
+    color: #16a085;
+}
+
+/* Responsive cho profile */
+@media (max-width: 768px) {
+    .profile-avatar img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-info .info-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+/* === Kiểu dáng cho Services === */
+.services-page {
+    background-color: #f4f7fa;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-details {
+    margin-bottom: 15px;
+}
+
+.service-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #2d4a5e;
+}
+
+.service-details strong {
+    color: #1a3c34;
+}
+
+/* Responsive cho services */
+@media (max-width: 768px) {
+    .services-page h1 {
+        font-size: 2rem;
+    }
+
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+/* === Kiểu dáng cho Booking === */
+.booking-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.booking-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card .form-label {
+    font-weight: 500;
+    color: #1a3c34;
+}
+
+.booking-card .form-control,
+.booking-card .form-select {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.booking-card .form-control:focus,
+.booking-card .form-select:focus {
+    border-color: #16a085;
+    box-shadow: 0 0 8px rgba(22, 160, 133, 0.3);
+}
+
+/* Responsive cho booking */
+@media (max-width: 768px) {
+    .booking-section h1 {
+        font-size: 2rem;
+    }
+
+    .booking-card .form-control,
+    .booking-card .form-select {
+        font-size: 1rem;
+    }
+}
+
+/* === Kiểu dáng cho Pet Profile === */
+.pet-profile-section {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+}
+
+.pet-avatar img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #16a085;
+    transition: transform 0.3s ease;
+}
+
+.pet-avatar img:hover {
+    transform: scale(1.05);
+}
+
+.pet-profile-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pet-info .info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.pet-info .info-item:last-child {
+    border-bottom: none;
+}
+
+.pet-info .info-label {
+    font-weight: 500;
+    color: #1a3c34;
+}
+
+.pet-info .info-label i {
+    color: #16a085;
+}
+
+/* Responsive cho pet profile */
+@media (max-width: 768px) {
+    .pet-avatar img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .pet-info .info-item {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+/* === Kiểu dáng cho Promotions === */
+.promotions-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.promo-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.promo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.promo-details {
+    margin-bottom: 15px;
+}
+
+.promo-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #2d4a5e;
+}
+
+.promo-details strong {
+    color: #1a3c34;
+}
+
+/* Responsive cho promotions */
+@media (max-width: 768px) {
+    .promotions-section h1 {
+        font-size: 2rem;
+    }
+
+    .promo-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* === Kiểu dáng cho Review === */
+.review-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.review-form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.star-rating i {
+    font-size: 1.5rem;
+    color: #dee2e6;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.star-rating i.text-warning {
+    color: #ffc107;
+}
+
+.review-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.review-stars i {
+    font-size: 1rem;
+}
+
+/* Responsive cho review */
+@media (max-width: 768px) {
+    .review-section h1 {
+        font-size: 2rem;
+    }
+
+    .star-rating i {
+        font-size: 1.3rem;
+    }
+
+    .review-item img {
+        width: 40px;
+        height: 40px;
+    }
+}
+/* === Kiểu dáng cho Cart === */
+.cart-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.cart-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control .btn {
+    border-radius: 8px;
+}
+
+.cart-summary {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.summary-details {
+    margin-bottom: 15px;
+}
+
+.summary-details p {
+    font-size: 1.1rem;
+    color: #2d4a5e;
+}
+
+/* Responsive cho cart */
+@media (max-width: 768px) {
+    .cart-section h1 {
+        font-size: 2rem;
+    }
+
+    .cart-item-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart-item .btn-danger {
+        margin-top: 10px;
+    }
+}
+
+/* === Kiểu dáng cho Orders === */
+.orders-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.order-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.order-item p {
+    margin: 5px 0;
+    color: #2d4a5e;
+}
+
+.order-item .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho orders */
+@media (max-width: 768px) {
+    .orders-section h1 {
+        font-size: 2rem;
+    }
+
+    .order-item h5 {
+        font-size: 1.25rem;
+    }
+}
+
+/* === Kiểu dáng cho Vaccination === */
+.vaccination-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.vaccination-table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.vaccination-table th,
+.vaccination-table td {
+    vertical-align: middle;
+}
+
+.vaccination-table .badge {
+    font-size: 0.9rem;
+}
+
+/* Responsive cho vaccination */
+@media (max-width: 768px) {
+    .vaccination-section h1 {
+        font-size: 2rem;
+    }
+
+    .vaccination-table {
+        font-size: 0.9rem;
+    }
+}
+/* === Kiểu dáng cho Chatbot === */
+.chatbot-section {
+    background-color: #f4f7fa;
+    border-radius: 15px;
+}
+
+.chatbot-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-window {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.chat-message {
+    margin-bottom: 15px;
+}
+
+.chat-message p {
+    padding: 10px 15px;
+    border-radius: 12px;
+    display: inline-block;
+    max-width: 70%;
+}
+
+.bot-message p {
+    background-color: #16a085;
+    color: #ffffff;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.user-message p {
+    background-color: #e9ecef;
+    color: #2d4a5e;
+}
+
+.chat-message small {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive cho chatbot */
+@media (max-width: 768px) {
+    .chatbot-section h1 {
+        font-size: 2rem;
+    }
+
+    .chat-window {
+        max-height: 300px;
+    }
+
+    .chat-message p {
+        max-width: 85%;
+    }
+}
